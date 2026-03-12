@@ -1,0 +1,22 @@
+package com.sunbeam.assignment01.q3;
+
+public class Project03Test {
+ public static void main(String[] args) {
+	 
+     Project03 emp1 = new Project03("Sushant", "SushantK", 5000);
+     Project03 emp2 = new Project03("Amit", "AmitL", 6000);
+
+     System.out.println("Yearly Salary:");
+     System.out.println("First Name is : " + emp1.getFirstName() + "|| Last Name is : " + emp1.getLastName() + "|| Yearly Salary is : " + emp1.getYearlySalary());
+     System.out.println("First Name is : " + emp2.getFirstName() + "|| Last Name is : " + emp2.getLastName() + "|| Yearly Salary is : " + emp2.getYearlySalary());
+
+     // Give 10% raise
+     emp1.setMonthlySalary(emp1.getMonthlySalary() * 1.10);
+     emp2.setMonthlySalary(emp2.getMonthlySalary() * 1.10);
+     
+     System.out.println("\nYearly Salary after 10% :");
+     System.out.println("First Name is : " + emp1.getFirstName() + "|| Last Name is : " + emp1.getLastName() + "|| Yearly Salary is : " + emp1.getYearlySalary());
+     System.out.println("First Name is : " + emp2.getFirstName() + "|| Last Name is : " + emp2.getLastName() + "|| Yearly Salary is : " + emp2.getYearlySalary());
+
+ }
+}

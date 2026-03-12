@@ -1,0 +1,58 @@
+//Q1. Accept a integer number and when the program is executed print the binary, octal and
+//hexadecimal equivalent of the given number.
+//Sample Output:
+//java Test
+//Enter Number : 20
+//Given Number :20
+//Binary equivalent :10100
+//Octal equivalent :24
+//Hexadecimal equivalent :14
+//Hint : Use Wrapper Class (toBinaryString() , toOctalString(), toHexString())
+
+package com.sunbeam.assignment01.q1;
+
+import java.util.Scanner;
+
+class qn1{
+	int num;
+	Scanner sc = new Scanner(System.in);
+	
+	public void accept_number(){
+		System.out.println("Enter Number : ");
+		 num = sc.nextInt();
+		
+	}
+	public void display_number() {
+		System.out.println("\nGiven Number : "+num+"\n");
+		System.out.println("Binary Equivalent : "+Integer.toBinaryString(num));
+		System.out.println("Octal Equivalent : "+Integer.toOctalString(num));
+		System.out.println("Hexadecimal equivalent : "+Integer.toHexString(num));
+	}
+}
+
+public class Project01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		qn1 a1 = new qn1();
+		a1.accept_number();
+		a1.display_number();
+	}
+
+}
+
+
+//output
+
+/*
+Enter Number : 
+20
+
+Given Number : 20
+
+Binary Equivalent : 10100
+Octal Equivalent : 24
+Hexadecimal equivalent : 14
+
+*/

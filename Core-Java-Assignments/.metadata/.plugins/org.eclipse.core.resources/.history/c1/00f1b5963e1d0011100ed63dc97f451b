@@ -1,0 +1,34 @@
+package com.sunbeam.assignment03.student;
+
+import com.sunbeam.assignment.emp.Emp;
+
+public class student_arr {
+
+	public static void main(String[] args) {
+		
+		student[] arr = new student[5];
+		
+		arr[0] = new student();
+		arr[0].accept_student();
+		
+		arr[1] = new student();
+		arr[1].accept_student();
+		
+		arr[2] = new student();
+		arr[2].accept_student();
+		
+		arr[3] = new student();
+		arr[3].accept_student();
+		
+		arr[4] = new student();
+		arr[4].accept_student();
+		
+		for(student s : arr)
+			s.display_student();
+		
+		student s1 = new student();
+		s1.accept_student();
+		s1.display_student();
+	}
+
+}

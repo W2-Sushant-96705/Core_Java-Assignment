@@ -1,0 +1,34 @@
+22:09:43 Microsoft.Shutdown.TabStripModel.CloseTabs
+22:09:43 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+22:09:43 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+22:09:43 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+22:09:43 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+22:09:43 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+22:09:43 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+22:09:43 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+22:09:43 Tab20 RenderProcessGone
+22:09:43 Microsoft.UnloadController.ClearUnloadState
+22:09:43 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+22:09:43 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+22:09:43 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+22:09:43 Microsoft.UnloadController.ClearUnloadState
+22:09:43 Browser20 Close Tab20 at 0
+22:09:43 Tab20 WebContentsDestroyed
+22:09:43 Microsoft.UnloadController.TabStripEmpty
+22:09:43 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+22:09:43 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+22:09:43 Microsoft.Shutdown.OnWindowClosing
+22:09:43 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+22:09:43 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+22:09:43 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+22:09:43 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+22:09:43 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+22:09:43 Widget Closed: BrowserWidget
+22:09:43 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+22:09:43 Microsoft.Shutdown.OnWindowClosing
+22:09:43 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+22:09:43 Microsoft.Browser_Removed
+22:09:52 Tab19 StartNav228 #typed
+22:09:52 Tab19 FinishNav228
+22:09:52 Tab19 PageLoad
+23:02:22 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

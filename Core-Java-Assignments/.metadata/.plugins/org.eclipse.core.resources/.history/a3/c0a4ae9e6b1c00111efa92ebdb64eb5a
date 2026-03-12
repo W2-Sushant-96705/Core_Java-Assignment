@@ -1,0 +1,56 @@
+package com.sunbeam.assignment01.q2;
+
+import java.util.Scanner;
+
+public class Project02 {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		double n1;
+		double n2;
+		System.out.println("Enter Number 1 : ");
+		if(!(sc.hasNextDouble())){
+			
+			System.out.println("Error! Please Enter Valid Number.");
+			return;
+		}
+		n1=sc.nextDouble();
+		
+		System.out.println("Enter Number 2 : ");
+		
+		
+		if(!(sc.hasNextDouble())){
+			
+			System.out.println("Error! Please Enter Valid Number.");
+			return;
+		}
+		n2 =sc.nextDouble();
+		
+		double avg = (n1+n2)/2;
+		
+		System.out.println("The Average is : "+avg);
+	}
+
+}
+
+
+//output
+
+/*Enter Number 1 : 
+20
+Enter Number 2 : 
+ab
+Error! Please Enter Valid Number.
+*/
+
+//output
+
+/*
+Enter Number 1 : 
+22
+Enter Number 2 : 
+22
+The Average is : 22.0 
+ */

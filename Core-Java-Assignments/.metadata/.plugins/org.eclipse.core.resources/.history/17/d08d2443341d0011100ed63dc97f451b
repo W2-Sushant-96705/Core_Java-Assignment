@@ -1,0 +1,28 @@
+package com.sunbeam.assignment.emp;
+
+public class emp_arr {
+		
+	public static void main(String[] args) {
+		Emp[] arr = new Emp[3];
+//		
+//		  for (int i = 0; i <= arr.length; i++) {
+//	            arr[i] = new Emp();    
+//	            arr[i].accept_emp();   
+//	        }
+
+		
+		arr[0] = new Emp();
+		arr[0].accept_emp(); 
+		
+		arr[1] = new Emp();
+		arr[1].accept_emp(); 
+		
+		arr[2] = new Emp();
+		arr[2].accept_emp(); 
+
+		    for (Emp e : arr)
+//		    Emp e = new Emp(); 
+			e.display_emp();
+	}
+	
+}

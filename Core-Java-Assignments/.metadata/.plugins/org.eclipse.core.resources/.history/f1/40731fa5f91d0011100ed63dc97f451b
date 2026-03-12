@@ -1,0 +1,22 @@
+package prad;
+
+import java.awt.datatransfer.SystemFlavorMap;
+
+public class Employee {
+
+		
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name = new String("Sus");
+		String name2 = new String ("Sus");
+		if(name == name2) {
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}
+			
+	}
+
+}

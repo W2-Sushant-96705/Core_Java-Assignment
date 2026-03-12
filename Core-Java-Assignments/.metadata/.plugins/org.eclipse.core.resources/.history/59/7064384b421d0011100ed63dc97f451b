@@ -1,0 +1,80 @@
+package com.sunbeam.assignment03.date;
+
+import java.util.Scanner;
+
+public class date {
+
+		private int date;
+		private int month;
+		private int year;
+	
+		public date() {
+			
+		}
+		
+		public date(int date, int month,int year) {
+			
+			this.date = date;
+			this.month = month;
+			this.year = year;
+		}
+		
+		
+	public int getDate() {
+			return date;
+		}
+
+		public void setDate(int date) {
+			this.date = date;
+		}
+
+		public int getMonth() {
+			return month;
+		}
+
+		public void setMonth(int month) {
+			this.month = month;
+		}
+
+		public int getYear() {
+			return year;
+		}
+
+		public void setYear(int year) {
+			this.year = year;
+		}
+		
+		void accept_date() {
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Enter Date : ");
+		
+			date = sc.nextInt();
+			
+			System.out.println(" / ");
+			date = sc.nextInt();
+			
+			System.out.println(" / ");
+			date = sc.nextInt();
+			
+	
+		}
+		
+		void display_date() {
+			
+			System.out.println(+date+" / "+month+" / "+year);
+			
+		}
+
+	public static void main(String[] args) {
+		
+
+			date d1 = new date();
+			d1.accept_date();
+			d1.display_date();
+			
+	}
+
+}
+
+
