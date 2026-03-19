@@ -29,7 +29,7 @@ public class SchoolTest {
 
     public static void main(String[] args) {
 
-        List<Student> stulist = loadstu(); // FIX: load saved data
+        List<Student> stulist = loadstu(); 
         Scanner sc = new Scanner(System.in);
 
         int choice;
@@ -77,11 +77,11 @@ public class SchoolTest {
                     System.out.print("Enter RollNo to delete: ");
                     int del = sc.nextInt();
 
-                    stulist.removeIf(s -> s.getRollno() == del); // FIX
+                    stulist.removeIf(s -> s.getRollno() == del); 
                     break;
 
                 case 5:
-                    Collections.sort(stulist, (a, b) -> a.getRollno() - b.getRollno()); // FIX
+                    Collections.sort(stulist, (a, b) -> a.getRollno() - b.getRollno()); 
                     for (Student s : stulist)
                         System.out.println(s);
                     break;
@@ -93,7 +93,7 @@ public class SchoolTest {
                     break;
 
                 case 7:
-                    Collections.sort(stulist, (a, b) -> (int) (b.getMarks() - a.getMarks())); // FIX
+                    Collections.sort(stulist, (a, b) -> (int) (b.getMarks() - a.getMarks())); 
                     for (Student s : stulist)
                         System.out.println(s);
                     break;
@@ -116,7 +116,7 @@ public class SchoolTest {
                     System.out.println("Invalid choice");
             }
 
-        } while (choice != 0); // FIX: correct loop
+        } while (choice != 0); 
 
         sc.close();
     }

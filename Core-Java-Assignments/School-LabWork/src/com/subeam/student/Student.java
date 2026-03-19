@@ -39,7 +39,7 @@ public class Student implements Serializable {
         return "\nStudent [rollno=" + rollno + ", name=" + name + ", marks=" + marks + "]";
     }
 
-    // FIX: correct equals (ONLY rollno)
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
